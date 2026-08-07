@@ -1,0 +1,54 @@
+:root {
+  --bg: #fbfaf7;
+  --surface: #f3f1eb;
+  --text-strong: #191714;
+  --text-muted: #635f58;
+  --text-soft: #928c82;
+  --line: #ded9cf;
+  --accent: #7a4c2a;
+  font-family:
+    "SFMono-Regular", "Cascadia Mono", "Liberation Mono", Consolas, "Courier New",
+    monospace;
+  color: var(--text-strong);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    linear-gradient(90deg, rgba(25, 23, 20, 0.04) 1px, transparent 1px) 0 0 /
+      72px 72px,
+    var(--bg);
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::selection {
+  background: #d8c7ae;
+  color: var(--text-strong);
+}
