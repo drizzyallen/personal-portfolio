@@ -1,23 +1,18 @@
 export const projects = [
   {
-    name: 'KeanUHackThis Full Stack Web Developer',
+    name: 'Deep Learning Researcher | Medical Image Analysis',
     description:
-      'Built the most important piece to hosting a college hackathon, a hackathon website. Utilized REACT (Vite) with TailwindCSS. Integrated supabase to store user\'s information for waitlisting. Maintained deployment while earning top-3 average search position (2.6) for core keywords, ensuring maximum brand visibility, driving a 44.8% CTR, contributing to scaling event registration to 200+',
+      'Hired by faculty to work on and train Computer Vision models on the topic of Medical Image Analysis. Built various CNN models with 85- 92% accuracy and segmentation models on over 5,000+ BUSI and COVID MRI images. Ran tests and analyses by examining results with loss functions, recall, precision, confusion matrix, ROC curve with AUC value, and CAMs. Collected testing reports with LViT-T, RecLMIS, and ProLearn with the goal to alleviate textual reliance. Worked on an Agile workflow by attending weekly meetings to review progress, improvements, advice, and embark on new checkpoints.',
   },
   {
-    name: 'Kean ACM Club Fullstack Web Developer',
-    description:
-      'Maintain a legacy website hosted by the Kean University ACM club.',
-  },
-  {
-    name: 'Teacher Assistant and Tutor',
+    name: 'Object Oriented Programming Tutor & Teacher Assistant',
     description:
       'Worked along a CS profesor on Fundamentals of Computer Science by assisting a large lecture hall of 60+ students by answering questions and debugging student\'s code and facilitated over 100+ tutoring sessions. I currently work as TA and tutor for Object Oriented Programming concepts.',
   },
   {
-    name: 'Deep Learning researcher',
+    name: 'KeanUHackThis Full Stack Web Developer',
     description:
-      'Hired by faculty to work and train Computer Vision models on the topic of Medical Image Analysis. Built various 85-92% accuracy CNN models and segmentation models on over 5,000+ BUSI and Covid MRI images. Ran tests and analysis by examining results with loss functions, recall, precision, confusion matrix, ROC curve with AUC value, and CAMs.',
+      'Built the most important piece to hosting a college hackathon, a full-stack website for the Kean University hackathon, built to support event registration with a profile and participant waitlisting. The project connects a clean React interface with backend services and database storage so students can sign up, submit information, and stay connected with event updates. Built KeanUHackThis2026 & KeanUHackThis2027',
   },
 ]
 
@@ -36,7 +31,7 @@ export const portfolioProjects: Array<{
     name: 'KeanUHackThis',
     detail: 'Full stack app',
     description:
-      'A full-stack app for the Kean University hackathon, built to support event registration, participant waitlisting, and organizer workflows. The project connects a clean React interface with backend services and database storage so students can sign up, submit information, and stay connected with the event as it grows.',
+      'A full-stack app for the Kean University hackathon, built to support event registration with a profile and participant waitlisting. The project connects a clean React interface with backend services and database storage so students can sign up, submit information, and stay connected with the event as it grows.',
     image: '/keanuhackthis.png',
     url: 'https://www.keanuhackthis.com/',
     githubUrl: 'https://github.com/drizzyallen/comingSoon-KeanUHackThis2027',
@@ -55,6 +50,7 @@ export const portfolioProjects: Array<{
     detail: 'Team of 4',
     description: 'Lead a team of 4 on priority tasks on building and testing multiple models and practicing exploratory data analysis on over 5,000+ training examples. Hosted weekly meetings to present minimum viable product, track progress and consider improvements. Integrated FastAPI backend and engineered processing pipelines to clean, normalize, and structure user data for input into machine learning models used to classify the tumor in the histology images as outputs',
     image: '/breastcancerdetection.png',
+    url: 'https://breast-cancer-detection-ke9q.vercel.app/',
     githubUrl: 'https://github.com/Breast-Cancer-Detection',
     slidesUrl: '/Final%2018C%20Presentation.pdf',
   }

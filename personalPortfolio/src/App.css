@@ -173,6 +173,7 @@
 
 #projects {
   border-top: 0;
+  padding-top: 0;
 }
 
 .section-heading {
@@ -302,7 +303,7 @@
   gap: 14px;
   max-width: 840px;
   border-top: 1px solid var(--line);
-  padding-top: 28px;
+  padding-top: 16px;
 }
 
 .projects-heading {

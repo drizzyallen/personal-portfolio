@@ -75,16 +75,16 @@ function HomePage() {
         <div className="technical-skills">
           <h3>Technical skills</h3>
           <p>
-            <span>Languages:</span> JavaScript &amp; TypeScript, Java, Python,
-            C++, SQL, HTML/CSS
+            <span>Languages:</span> JavaScript/TypeScript, Java, Python,
+            C++, C#, SQL, HTML/CSS, R, Assembly
           </p>
           <p>
             <span>Frameworks:</span> Node.js, Express.js, React (Next.js),
-            Visual Studio Code, Google Colab, Eclipse, Git/GitHub
+            Visual Studio Code, Google Colab (Jupyter Notebooks), Eclipse, Git/GitHub
           </p>
           <p>
-            <span>Tools:</span> Supabase, PostgreSQL, RESTful API, JWT, FastAPI,
-            Docker, Postman, LLMs
+            <span>Tools:</span> Supabase, PostgreSQL, PyTorch, CUDA, RESTful API, JWT, FastAPI,
+            Docker, Postman, Linux, LLMs
           </p>
         </div>
 
