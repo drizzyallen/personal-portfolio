@@ -32,7 +32,7 @@ export const portfolioProjects: Array<{
     detail: 'Full stack app',
     description:
       'A full-stack app for the Kean University hackathon, built to support event registration with a profile and participant waitlisting. The project connects a clean React interface with backend services and database storage so students can sign up, submit information, and stay connected with the event as it grows.',
-    image: '/keanuhackthis.png',
+    image: '/Screenshot 2026-09-26 213516.png',
     url: 'https://www.keanuhackthis.com/',
     githubUrl: 'https://github.com/drizzyallen/comingSoon-KeanUHackThis2027',
   },
